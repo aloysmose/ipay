@@ -13,7 +13,7 @@
 
         if($result)
         {
-            if($_POST['IPGmethod'] == "IPGPurchaseOK" || $_POST['IPGmethod'] == "IPGPurchaseIPAY")
+            if($_POST['IPGmethod'] == "IPGPurchaseOK" || $_POST['IPGmethod'] == "IPGPurchaseIPAY" || $_POST['IPGmethod'] == "IPGPurchaseNotify")
             {
                 // TODO: Handle OK methods
             }
